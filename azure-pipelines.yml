@@ -20,6 +20,7 @@ steps:
 - script: |
     npm init -y
     npm install
+    cat /home/vsts/work/package.json
     npm run build 
     cat /home/vsts/.npm/_logs/*-debug.log
   displayName: 'npm install and build'
