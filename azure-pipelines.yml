@@ -18,6 +18,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    npm init -y 
     cp package.json /home/vsts/work/1/s/package.json
     npm install
     cat /home/vsts/work/1/s/package.json
