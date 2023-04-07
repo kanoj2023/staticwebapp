@@ -1,0 +1,23 @@
+{
+   "name": "s",
+   "version": "1.0.0",
+   "description": "---\r page_type: sample\r languages:\r   - javascript\r   - typescript\r products:\r   - azure functions\r description: 'Apps that can be used with as a starting point for some MS Learn Modules.'\r urlFragment: 'https://github.com/MicrosoftDocs/mslearn-staticwebapp'\r ---",
+   "main": "index.js",
+   "directories": {
+     "test": "test"
+   },
+   "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 0"
+   },
+   "repository": {
+    "type": "git",
+     "url": "git+https://github.com/kanoj2023/staticwebapp.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+     "url": "https://github.com/kanoj2023/staticwebapp/issues"
+   },
+   "homepage": "https://github.com/kanoj2023/staticwebapp#readme"
+}
